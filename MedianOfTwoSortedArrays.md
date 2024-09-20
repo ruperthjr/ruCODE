@@ -1,5 +1,6 @@
 ## 4. Median of Two Sorted Arrays
 ### JS
+```
 /**
  * @param {number[]} nums1
  * @param {number[]} nums2
@@ -13,6 +14,7 @@ const findMedianSortedArrays = (nums1, nums2) => {
   const mid = Math.floor(merged.length / 2);
   return merged.length % 2 === 1 ? merged[mid] : (merged[mid - 1] + merged[mid]) / 2;
 };
+```
 
 ### Test Data
 const nums1 = [1, 3];
