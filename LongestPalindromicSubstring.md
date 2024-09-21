@@ -1,4 +1,4 @@
-## Time Complexity of the code
+## Time Complexity
 ```cpp O(n^2) ```
 ### JS
 ```
@@ -35,7 +35,7 @@ const isPalindrome = (s) => {
 };
 ```
 
-### Test Data for the Generated Code
+### Test Data
 ```
 "babad"
 "cbbd"
@@ -44,7 +44,7 @@ const isPalindrome = (s) => {
 "deed"
 ```
 
-### Test Cases for the Generated Code
+### Test Cases
 ```
 const testCases = [
   {
